@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Floor Planner</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@5"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body>
+        <div class="flex flex-col items-center justify-center gap-4">
+            <div class="bg-info p-4 text-white w-full">
+                <h1 class="text-3xl font-bold text-center">Floor Plan</h1>
+            </div>
+            <div>
+                <img
+                    class="w-[800px] h-[619px]"
+                    usemap="#floor-plan-map"
+                    src="./images/floor-plan.png"
+                    alt=""
+                />
+                <p class="text-center text-error">
+                    For more details please click Different Sections of this image.
+                </p>
+            </div>
+        </div>
+
+        <map name="floor-plan-map">
+            <!-- Balcony 1 -->
+            <area
+                shape="rect"
+                coords="35,425,246,564"
+                alt="Balcony 1"
+                href="./pages/balcony-1.html"
+                title="Balcony 1"
+            />
+
+            <!-- Balcony 2 -->
+            <area
+                shape="rect"
+                coords="502,426,742,565"
+                href="./pages/balcony-2.html"
+                alt="Balcony 2"
+                title="Balcony 2"
+            />
+
+            <!-- Sitting room -->
+            <area
+                shape="rect"
+                coords="250,425,500,565"
+                href="./pages/sitting-room.html"
+                alt="Sitting Room"
+                title="Sitting Room"
+            />
+
+            <!-- Dining room -->
+            <area
+                shape="rect"
+                coords="328,283,730,414"
+                href="./pages/dining-room.html"
+                alt="Dining Room"
+                title="Dining Room"
+            />
+
+            <!-- Bathroom 1 -->
+            <area
+                shape="rect"
+                coords="490,153,592,252"
+                href="./pages/bathroom-1.html"
+                alt="Bathroom 1"
+                title="Bathroom 1"
+            />
+
+            <!-- Bathroom 2 -->
+            <area
+                shape="rect"
+                coords="190,284,320,414"
+                href="./pages/bathroom-2.html"
+                alt="Bathroom 2"
+                title="Bathroom 2"
+            />
+
+            <!-- Bedroom 1 -->
+            <area
+                shape="rect"
+                coords="48,208,186,414"
+                href="./pages/bedroom-1.html"
+                alt="Bedroom 1"
+                title="Bedroom 1"
+            />
+
+            <!-- Bedroom 3 -->
+            <area
+                shape="rect"
+                coords="146,54,254,204"
+                href="./pages/bedroom-3.html"
+                alt="Bedroom 3"
+                title="Bedroom 3"
+            />
+
+            <!-- Walk in closet-->
+            <area
+                shape="rect"
+                coords="48,54,142,204"
+                href="./pages/walk-in.html"
+                alt="Walk In Closet"
+                title="Walk In Closet"
+            />
+
+            <!-- Kitchen -->
+            <area
+                shape="rect"
+                coords="600,154,730,288"
+                href="./pages/kitchen.html"
+                alt="Kitchen"
+                title="Kitchen"
+            />
+
+            <!-- Bedroom 4 -->
+            <area
+                shape="rect"
+                coords="256,54,364,204"
+                href="./pages/bedroom-4.html"
+                alt="Bedroom 4"
+                title="Bedroom 4"
+            />
+
+            <!-- Front Porch -->
+            <area
+                shape="rect"
+                coords="376,42,512,142"
+                href="./pages/front-porch.html"
+                alt="Front Porch"
+                title="Front Porch"
+            />
+
+            <!-- Storage -->
+            <area
+                shape="rect"
+                coords="524,54,652,146"
+                href="./pages/storage.html"
+                alt="Storage"
+                title="Storage"
+            />
+
+            <!-- Utilities -->
+            <area
+                shape="rect"
+                coords="658,54,730,146"
+                href="./pages/utilities.html"
+                alt="Utilities"
+                title="Utilities"
+            />
+
+            <!-- Hallway -->
+            <area
+                shape="rect"
+                coords="190,208,486,278"
+                href="./pages/hallway.html"
+                alt="Hallway"
+                title="Hallway"
+            />
+        </map>
+    </body>
+</html>
