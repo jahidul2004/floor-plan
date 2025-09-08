@@ -73,10 +73,9 @@ image-maper/
 
 ---
 
-## 🙏 Credits
+## 🙏 Developed By
 
--   Floor plan image: _Your source here or Unsplash/Freepik if applicable_
--   Developed by: _Your Name or Team_
+-   Developed by: _Jahidul Islam Jihad_
 
 ---
 
