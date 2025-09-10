@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Bathroom 1</h1>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bathroom 1</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@5"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body class="bg-base-200 min-h-screen">
+        <header class="bg-error text-white p-6 text-center shadow">
+            <h1 class="text-3xl font-bold">Bathroom 1</h1>
+            <p class="text-base mt-2">Modern, clean, and comfortable</p>
+        </header>
+        <main class="max-w-3xl mx-auto p-4 flex flex-col gap-8">
+            <section
+                class="flex flex-col md:flex-row gap-6 items-center bg-base-100 rounded-xl shadow-lg p-6 mt-6"
+            >
+                <img
+                    src="/images/bathroom-1.jpg"
+                    alt="Bathroom 1"
+                    class="p-1 rounded-lg w-full md:w-1/2 object-cover h-64 border-2 border-error"
+                />
+                <div>
+                    <h2 class="text-xl font-semibold text-error mb-2">
+                        About This Bathroom
+                    </h2>
+                    <p class="text-base-content mb-4">
+                        Bathroom 1 is designed for relaxation and convenience,
+                        featuring modern fixtures, a spacious shower, and
+                        elegant tiling. Perfect for unwinding after a long day.
+                    </p>
+                    <p>
+                        This bathroom combines style and functionality, making
+                        it a comfortable space for daily routines.
+                    </p>
+                </div>
+            </section>
+            <section class="bg-base-100 rounded-xl shadow p-6">
+                <h2 class="text-lg font-bold text-error mb-2">Key Features</h2>
+                <ul class="list-disc ml-6 text-base-content space-y-1">
+                    <li>Walk-in shower with glass doors</li>
+                    <li>Modern sink and vanity</li>
+                    <li>Ample storage space</li>
+                    <li>Soft lighting and ventilation</li>
+                </ul>
+            </section>
+            <section class="bg-base-100 rounded-xl shadow p-6">
+                <h2 class="text-lg font-bold text-error mb-2">Tips for Use</h2>
+                <ol class="list-decimal ml-6 text-base-content space-y-1">
+                    <li>
+                        Keep towels and toiletries organized for a spa-like
+                        feel.
+                    </li>
+                    <li>Use scented candles for a relaxing atmosphere.</li>
+                    <li>Open the window for fresh air after use.</li>
+                </ol>
+            </section>
+        </main>
+    </body>
 </html>

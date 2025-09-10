@@ -3,9 +3,67 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Balcony 2</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@5"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     </head>
-    <body>
-        I am balcony 2
+    <body class="bg-base-200 min-h-screen">
+        <header class="bg-success text-white p-6 text-center shadow">
+            <h1 class="text-3xl font-bold">Balcony 2</h1>
+            <p class="text-base mt-2">A peaceful outdoor retreat</p>
+        </header>
+        <main class="max-w-3xl mx-auto p-4 flex flex-col gap-8">
+            <section
+                class="flex flex-col md:flex-row gap-6 items-center bg-base-100 rounded-xl shadow-lg p-6 mt-6"
+            >
+                <img
+                    src="/images/balcony-2.jpg"
+                    alt="Balcony 2"
+                    class="p-1 rounded-lg w-full md:w-1/2 object-cover h-64 border-2 border-success"
+                />
+                <div>
+                    <h2 class="text-xl font-semibold text-success mb-2">
+                        About This Balcony
+                    </h2>
+                    <p class="text-base-content mb-4">
+                        Balcony 2 offers a serene space to enjoy fresh air, read
+                        a book, or sip your morning coffee. Designed for comfort
+                        and relaxation, it features modern railings and a
+                        beautiful view.
+                    </p>
+                    <p>
+                        This balcony is perfect for unwinding after a long day,
+                        with enough space for seating and plants to create a
+                        cozy outdoor oasis.
+                    </p>
+                </div>
+            </section>
+            <section class="bg-base-100 rounded-xl shadow p-6">
+                <h2 class="text-lg font-bold text-success mb-2">Features</h2>
+                <ul class="list-disc ml-6 text-base-content space-y-1">
+                    <li>Spacious area for seating</li>
+                    <li>Modern safety railings</li>
+                    <li>Great for plants and decor</li>
+                    <li>Direct access from living room</li>
+                </ul>
+            </section>
+            <section class="bg-base-100 rounded-xl shadow p-6">
+                <h2 class="text-lg font-bold text-success mb-2">
+                    Tips for Use
+                </h2>
+                <ol class="list-decimal ml-6 text-base-content space-y-1">
+                    <li>
+                        Place a small table and chairs for a cozy breakfast
+                        spot.
+                    </li>
+                    <li>Add potted plants for a touch of greenery.</li>
+                    <li>Use string lights for evening ambiance.</li>
+                </ol>
+            </section>
+        </main>
     </body>
 </html>
