@@ -3,9 +3,63 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Dining Room</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@5"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     </head>
-    <body>
-        I am dining room
+    <body class="bg-base-200 min-h-screen">
+        <header class="bg-warning text-white p-6 text-center shadow">
+            <h1 class="text-3xl font-bold">Dining Room</h1>
+            <p class="text-base mt-2">A cozy and inviting space</p>
+        </header>
+        <main class="max-w-3xl mx-auto p-4 flex flex-col gap-8">
+            <section
+                class="flex flex-col md:flex-row gap-6 items-center bg-base-100 rounded-xl shadow-lg p-6 mt-6"
+            >
+                <img
+                    src="/images/dining-room.jpg"
+                    alt="Dining Room"
+                    class="p-1 rounded-lg w-full md:w-1/2 object-cover h-64 border-2 border-warning"
+                />
+                <div>
+                    <h2 class="text-xl font-semibold text-warning mb-2">
+                        About This Dining Room
+                    </h2>
+                    <p class="text-base-content mb-4">
+                        The dining room is designed for family gatherings and
+                        meals, featuring a large table, comfortable chairs, and
+                        elegant decor. It's a space where you can enjoy
+                        delicious food and create lasting memories.
+                    </p>
+                    <p>
+                        This dining room is perfect for hosting dinner parties
+                        or enjoying a quiet meal with loved ones.
+                    </p>
+                </div>
+            </section>
+            <section class="bg-base-100 rounded-xl shadow p-6">
+                <h2 class="text-lg font-bold text-warning mb-2">Features</h2>
+                <ul class="list-disc ml-6 text-base-content space-y-1">
+                    <li>Spacious area for seating</li>
+                    <li>Modern safety railings</li>
+                    <li>Great for plants and decor</li>
+                    <li>Direct access from living room</li>
+                </ul>
+            </section>
+            <section class="bg-base-100 rounded-xl shadow p-6">
+                <h2 class="text-lg font-bold text-warning mb-2">
+                    Tips for Use
+                </h2>
+                <ol class="list-decimal ml-6 text-base-content space-y-1">
+                    <li>Use a tablecloth for a touch of elegance.</li>
+                    <li>Incorporate a centerpiece for visual interest.</li>
+                    <li>Ensure adequate lighting for evening meals.</li>
+                </ol>
+            </section>
+        </main>
     </body>
 </html>
